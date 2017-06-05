@@ -1,0 +1,19 @@
+{
+  "name": "mejor-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "myServer.js",
+  "scripts": {
+    "start": "npm install | node myServer.js",
+    "test": "npm install | nodemon myServer.js"
+  },
+  "author": "Alexandre ORFEVRE",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.3",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.27",
+    "node-schedule": "^1.2.3",
+    "public-ip": "^2.3.5"
+  }
+}
